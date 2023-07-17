@@ -18,8 +18,8 @@ export default function Launch() {
   if (!launch) return <div>Loading...</div>
 
   return (
-    <div>
-      <h1>{launch.name}</h1>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">{launch.name}</h1>
       <p>{launch.details}</p>
     </div>
   )
