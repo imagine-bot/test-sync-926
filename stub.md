@@ -5,7 +5,7 @@ temperature: 0
 ---
 
 ```stub
-Create a NextJS app with App router. There are 2 screens in the app:
+Create a FastAPI app with App router. There are 2 screens in the app:
 The home page shows a list of spacex satellite launches. Clicking on any launch takes you to the launch page detail.
 ```
 
