@@ -11,13 +11,13 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
-      <h1>SpaceX Launches</h1>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">SpaceX Launches</h1>
       <ul>
         {launches.map(launch => (
-          <li key={launch.id}>
+          <li key={launch.id} className="mb-2">
             <Link href={`/launch/${launch.id}`}>
-              <a>{launch.name}</a>
+              <a className="text-blue-500 hover:underline">{launch.name}</a>
             </Link>
           </li>
         ))}
